@@ -11,3 +11,5 @@ see prog_input_output.cairo as example.
 Say that you have a list of N pairs (key, value) and you want a function get_value_by_key that returns the value that’s associated with a certain key. You may assume that the keys are distinct. Take a moment to think how to write such a function.
 
 The naive solution takes O(N) Cairo instructions. It turns out that using nondeterminism it can be done with a constant number of instructions! All we have to do is find the right index using a hint. Then, we check that we got the correct key, and that the index is in range
+
+see key_value_constant_time.cairo as an example.

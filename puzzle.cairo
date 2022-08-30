@@ -178,15 +178,15 @@ end
 # *******************   DUMMY main() FUNCTION   *******************
 # func main{output_ptr : felt*, range_check_ptr}():
 #     alloc_locals
-#     local loc_tuple : (
-#         Location, Location, Location, Location, Location
-#     ) = (
-#         Location(row=0, col=2),
-#         Location(row=1, col=2),
-#         Location(row=1, col=3),
-#         Location(row=2, col=3),
-#         Location(row=3, col=3),
-#         )
+    # local loc_tuple : (
+    #     Location, Location, Location, Location, Location
+    # ) = (
+    #     Location(row=0, col=2),
+    #     Location(row=1, col=2),
+    #     Location(row=1, col=3),
+    #     Location(row=2, col=3),
+    #     Location(row=3, col=3),
+    #     )
 
 #     local tiles : (felt, felt, felt, felt) = (3, 7, 8, 12)
 
